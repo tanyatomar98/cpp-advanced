@@ -1,0 +1,13 @@
+==============================================================================================================
+  base_class_specifier          |           Public                    protected                    private
+==============================================================================================================
+1.Public base_class_name        |           public                    protected                    private
+
+2.protected base_class_name     |           protected                 protected                    private
+
+3.private base_class_name       |           private                   private                      private
+==============================================================================================================
+
+private base_class_name =>
+private, protected and public members of base class , all become private members in derived class;
+i.e. derived class treat the members variables as thier own private members variables.
